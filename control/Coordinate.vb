@@ -67,7 +67,7 @@ Redim X ^ 2 + Y ^ 2 = Z ^ 2
 
 End Function
 
-Module
+Module XYZ
 function Coordinate
   Sub ARSCoordinate
       this.X = AffineCoordinate
@@ -75,4 +75,5 @@ function Coordinate
       this.Z = SphereCoordinate
       X ^ 5 === Y ^ 4 == Z ^ 3
 End Sub
+
 End Module
