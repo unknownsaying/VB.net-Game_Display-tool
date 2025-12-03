@@ -23,4 +23,5 @@ Public Class ResourceManager
     Public Function GetFont(name As String) As Font
         Return If(fonts.ContainsKey(name), fonts(name), SystemFonts.DefaultFont)
     End Function
+
 End Class
